@@ -29,3 +29,9 @@ public class Atividade01{
     }
 }
 
+// Tempo  com 10 valores: 0.0033 ms
+// Tempo  com 100 valores: 0.141 ms
+// Tempo  com 1000 valores: 4.6038 ms
+// Tempo  com 10000 valores: 86.6439 ms
+// Tempo  com 100000 valores: 8490.6308 ms
+// Tempo  com 1000000 valores: 21477.478 ms
