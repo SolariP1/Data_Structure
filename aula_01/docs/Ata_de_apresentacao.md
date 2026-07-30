@@ -1,0 +1,10 @@
+## Revisão Mental
+Nesta atividade, o objetivo foi implementar o algoritmo Bubble Sort na linguagem Java e medir o tempo necessário para ordenar vetores de diferentes tamanhos (10, 100, 10.000, 100.000 e 1.000.000 de elementos). Para chegar à solução, pensamos em como que o algoritmo pudesse ser testado. Assim, criamos um vetor com a instrução int vetor[] = new int[];, onde o tamanho do vetor era alterado conforme cada teste. Em seguida, criamos um Random para preencher o vetor com valores aleatórios por meio de um laço . Dessa forma, garantimos que o algoritmo sempre recebesse um vetor desordenado para realizar a ordenação.
+
+Após o preenchimento do vetor, iniciamos a medição do tempo utilizando o código já fornecido long startTime = System.nanoTime();, pois o objetivo era medir apenas o tempo gasto pelo algoritmo de ordenação, sem considerar o tempo de criação e preenchimento do vetor. 
+
+## O Bubble Sort
+Implementamos o Bubble Sort utilizando dois laços de repetição. O primeiro laço foi responsável por percorrer o vetor diversas vezes, enquanto o segundo laço realizou as comparações entre os elementos. Sempre que encontrasse um valor fora de ordem, era necessário trocar os valores de posição. Para isso, utilizamos uma variável auxiliar para armazenar o valor que seria substituido, dessa maneira, ele não se perderia. O laço se repete até que todos os valores estejam em ordem crescente.
+
+## Conclusão
+Depois que toda a ordenação foi concluída, registramos o instante final utilizando o código já fornecido. Em seguida, calculamos o tempo gasto  e exibimos o resultado em milissegundos. Dessa forma, foi possível comparar o desempenho do Bubble Sort para diferentes tamanhos de vetores e observar que, quanto maior a quantidade de elementos, maior é o tempo de execução do algoritmo, já que ele realiza um grande número de comparações e trocas até que todos os elementos estejam ordenados.
